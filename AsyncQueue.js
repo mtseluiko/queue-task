@@ -27,11 +27,11 @@ class AsyncQueue {
     async get(timeout) {
         throw new Error('Method must be implemented.');
     }
-    async getQueue(name, channel) {
+    static async getQueue(name, channel) {
         throw new Error('Method must be implemented.');
     }
 
-    async connect() {
+    static async connect() {
         return null;
     }
 

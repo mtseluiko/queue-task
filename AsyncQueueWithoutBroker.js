@@ -1,3 +1,5 @@
+const AsyncQueue = require('./AsyncQueue')
+
 class AsyncQueueWithoutBroker extends AsyncQueue {
     POLLING_TIME = 100;
     DEFAULT_TIMEOUT = 10000;
